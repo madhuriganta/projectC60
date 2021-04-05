@@ -1,0 +1,63 @@
+html{
+ scroll-behavior: smooth;   
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    left: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+body {
+    background-color: aqua;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 30px;
+    font-family: 'Crimson Pro', cursive;
+}
+
+p {
+    color: darkblue;
+    font-size: 20px;
+}
+
+li {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+}
+
+a{
+    display: block;
+   text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+img {
+    transition: transfrom .2s;
+        border:10px solid #073b3d;
+    
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+
+
